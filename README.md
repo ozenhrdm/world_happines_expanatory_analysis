@@ -25,47 +25,38 @@ Leading experts across fields – economics, psychology, survey analysis, nation
 The project follows a structured Explanatory Data Analysis (EDA) flow:
 
 1. Data Processing
-Reading and initial analysis of the 2021 World Happiness dataset.
-
-Cleaning and organizing regional indicators.
+* Reading and initial analysis of the 2021 World Happiness dataset.
+* Cleaning and organizing regional indicators.
 
 2. Global Distributions
-Ladder Score Distribution: Visualizing the overall happiness density.
-
-Regional Insights: Comparing happiness levels across different geographical regions using Box and KDE plots.
+* Ladder Score Distribution: Visualizing the overall happiness density.
+* Regional Insights: Comparing happiness levels across different geographical regions using Box and KDE plots.
 
 3. Geographical Mapping (Interactive)
-World Map View: An interactive Plotly map displaying Ladder Scores by country.
-
-Generosity Map: Mapping global generosity levels to identify regional patterns.
+* World Map View: An interactive Plotly map displaying Ladder Scores by country.
+* Generosity Map: Mapping global generosity levels to identify regional patterns.
 
 4. Behavioral & Economic Analysis
-Top & Bottom Nations: Identifying the happiest and unhappiest countries in 2021.
-
-Generosity Analysis: Investigating the most and least generous nations and their regional distribution.
+* Top & Bottom Nations: Identifying the happiest and unhappiest countries in 2021.
+* Generosity Analysis: Investigating the most and least generous nations and their regional distribution.
 
 5. Relationship Analysis (Multivariate)
-Deep dive into how happiness correlates with critical life factors:
+ Deep dive into how happiness correlates with critical life factors:
 
-Happiness vs. Income (GDP): Does wealth guarantee happiness?
-
-Happiness vs. Freedom: The impact of personal liberty on well-being.
-
-Happiness vs. Corruption: How perception of corruption affects national morale.
+* Happiness vs. Income (GDP): Does wealth guarantee happiness?
+* Happiness vs. Freedom: The impact of personal liberty on well-being.
+* Happiness vs. Corruption: How perception of corruption affects national morale.
 
 6. Correlation & Clustering
-Heatmap: Statistical correlation between all features.
-
-Clustermap: Using hierarchical clustering to group countries with similar socio-economic profiles.
+* Heatmap: Statistical correlation between all features.
+* Clustermap: Using hierarchical clustering to group countries with similar socio-economic profiles.
 
 📂 Dataset Information
 The analysis uses the following data sources from Kaggle:
 
-world-happiness-report-2021.csv
-
-world-happiness-report.csv (Historical data)
-
-population_total_long.csv (World population context)
+* world-happiness-report-2021.csv
+* world-happiness-report.csv (Historical data)
+* population_total_long.csv (World population context)
 
 💡 Conclusion
 The final section of the notebook summarizes the key drivers of happiness in 2021, highlighting the unexpected resilience of certain regions and the undeniable link between social support and life satisfaction.
@@ -92,22 +83,22 @@ After a comprehensive explanatory analysis of the 2021 World Happiness Report, s
    
 While there is a strong positive correlation between GDP per capita and Ladder Scores, the relationship is not strictly linear. In many developed nations, we observe "diminishing returns," where increases in wealth have a smaller impact on happiness compared to developing nations.
 
-3. The Power of Social Support & Freedom
+2. The Power of Social Support & Freedom
    
 The analysis shows that Social Support and Freedom to make life choices are often better predictors of long-term happiness than income alone. Countries in Northern Europe (Scandinavia) consistently rank at the top not just due to wealth, but due to high levels of social trust and low perceived corruption.
 
-4. Regional Disparities
+3. Regional Disparities
    
-Top Performers: Western Europe and North America/ANZ regions continue to lead in happiness scores.
+* Top Performers: Western Europe and North America/ANZ regions continue to lead in happiness scores.
 
-Resilience: Despite economic challenges, certain regions show high Generosity scores, proving that altruism isn't always tied to financial surplus.
+* Resilience: Despite economic challenges, certain regions show high Generosity scores, proving that altruism isn't always tied to financial surplus.
 
-Low Scorers: Sub-Saharan Africa and South Asia regions often struggle with lower scores, primarily driven by lower life expectancy and limited access to social safety nets.
+* Low Scorers: Sub-Saharan Africa and South Asia regions often struggle with lower scores, primarily driven by lower life expectancy and limited access to social safety nets.
 
-5. Corruption's Invisible Tax
+4. Corruption's Invisible Tax
    
 The Perception of Corruption shows a significant negative impact on national morale. Even in high-income countries, a high perception of corruption can lead to a visible dip in the overall happiness score, acting as a "happiness-reducer" across all demographics.
 
-6. Summary
+5. Summary
    
 Happiness is a multidimensional metric. To improve a nation's well-being, policy-makers should focus not only on economic growth (GDP) but also on fostering social trust, protecting personal freedoms, and investing in public health.
